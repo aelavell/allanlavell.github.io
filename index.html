@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2-DivingIn</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body class="centerpiece">
+<h1 id="diving-in">Diving In</h1>
+<p>Let’s start with something that requires zero installation, and will run on any modern web browser + operating system:</p>
+<p><a href="https://dartpad.dev/">https://dartpad.dev/</a></p>
+<p>You will be greeted with the following code. Don’t worry too much about understanding it all right away:</p>
+<pre><code>void main() {
+  for (int i = 0; i &lt; 5; i++) {
+    print(&#39;hello ${i + 1}&#39;);
+  }
+}</code></pre>
+<p>The Console pane on the right displays the output of the program. Dartpad will go ahead and automatically run the code as soon as you reach the webpage.*</p>
+<pre><code>hello 1
+hello 2
+hello 3
+hello 4
+hello 5</code></pre>
+<p>As you can see, this program prints ‘hello’ a number of times. 5, to be exact. Change that 5 to 101. Hit RUN. Wow, computers run so fast!! 🦄✨</p>
+<pre><code>  for (int i = 0; i &lt; 5; i++) {</code></pre>
+<p>becomes</p>
+<pre><code>  for (int i = 0; i &lt; 101; i++) {</code></pre>
+<p><em>Bonus Points</em></p>
+<p><em>Play around with the numbers more if you want. Part of learning is self-directed exploration. But be warned! You can easily make the program take a <em>reallyyyyy</em> long time to run. (Try i &lt; 1000000).</em></p>
+<p><em>If that happens, just close the tab, and open a new one! Or your entire browser, if it’s an oldie… Hopefully you don’t have to reboot your whole computer lol.</em></p>
+<p>~ Welcome to programming! ~</p>
+<pre><code>...
+hello 0
+hello 1
+hello 1
+hello 2
+hello 3
+hello 5
+hello 8
+hello 13
+hello 21
+hello 34 
+hello 55
+hello 89
+hello 144
+...</code></pre>
+<p><em>* otherwise; DartPad may have frozen.</em></p>
+</wadi>
+</man>
+</body>
+</html>
